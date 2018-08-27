@@ -1,5 +1,9 @@
-<?php
+<HTML>
 
-echo "hello";
+    <?php
 
-?>
+    echo "hello";
+
+    ?>
+    
+</HTML>
