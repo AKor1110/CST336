@@ -15,7 +15,8 @@ in html
       <meta charset = "utf-8">
       <title> Andy Kor: Personal Website </title>
       <link href = "css/styles.css" rel = "stylesheet" type = "text/css"/>
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+      <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
     </head>
 <!-- closing head -->
@@ -41,14 +42,14 @@ in html
              <h2> Contact Me </h2>
 
              Name: <br /> <br /> <input type = "text" name = "name" maxlength = "12" required> <br /> <br />
-             Email: <br /> <br /> <input type = "text" name = "email" maxlength = "30" required> <br /> <br />
+             Email: <br /> <br /> <input id = "email" type = "text" name = "email" maxlength = "30" required> <br /> <br />
              Address: <br /> <br /> <input type = "text" name = "address" maxlength = "30" required> <br /> <br />
              Phone Number: <br /> <br /> <input id = "phone" type = "text" name = "phone" maxlength = "14" placeholder = "(xxx)-xxx-xxxx"> <br /> <br />
              Comments: <br /> <br /> <textarea id = "comments" name = "comments"> </textarea>
                <br /> <br />
 
              <br />
-             <input type = "submit" value = "Submit">
+             <input id = "submitButton" type = "submit" value = "Submit">
              <br />
              <br />
              <br />
@@ -104,7 +105,19 @@ in html
 
        return (key == 8 || key == 9 || key == 46 || (key >= 48 && key <= 57) || (key >= 96 && key <= 105));
      });
+     
+     /*
+     $("#contact-form").submit(function() {
+        setTimeout(function () { swal({
+					          title: "Message Sent!",
+					        });
+        }, 2);
+     });
+     
+     */
+     
     });
+    
 
     </script>
 
