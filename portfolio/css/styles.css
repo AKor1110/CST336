@@ -1,0 +1,110 @@
+body {
+  background-color: black;
+  color: gray;
+}
+
+header, main, nav, footer {
+  text-align: center;
+}
+
+nav a {
+  padding: 15px;
+  padding-bottom: 4px;
+  font-size: 1.8em;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  border-bottom: 2px orange solid;
+  font-size: 2em;
+  transition: .9s;
+}
+
+footer {
+  clear: left;
+  color: cornflowerblue;
+}
+
+em {
+  word-wrap: normal;
+  color: silver;
+}
+
+table {
+  margin: 0px auto;
+}
+
+td {
+  padding-right: 10px;
+  font-size: 1.3em;
+}
+
+td strong {
+  color: orange;
+}
+
+ul {
+  text-align: left;
+  padding-left: 200px;
+}
+
+h2 {
+  text-align: center;
+  color: black;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+
+
+form {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 5px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header {
+  font-family: cursive;
+  font-size: 45px;
+  color: silver;
+}
+
+#comments {
+  width: 300px;
+  height: 100px;
+  padding: 5px;
+  font-size: 12px;
+  resize: none;
+}
+
+#contact-form {
+  margin: auto;
+  float: center;
+  background-color: white;
+  width: 30%;
+}
+
+#table-header {
+  background-color: #351a00;
+}
+
+#me, #welcomeText {
+  float: left;
+  padding-left: 15%;
+  padding-bottom: 2%;
+}
+
+#csumbLogo {
+  float: center;
+}
+
+.table-row {
+  background-color: #753900;
+}
+
+.hobby {
+  color: yellow;
+}
