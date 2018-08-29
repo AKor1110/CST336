@@ -1,0 +1,33 @@
+body {
+    background-color: cornflowerblue;
+}
+
+header, main, nav, footer {
+  text-align: center;
+}
+
+header {
+  font-family: cursive;
+  font-size: 45px;
+  color: silver;
+}
+
+nav a {
+  padding: 15px;
+  padding-bottom: 4px;
+  font-size: 1.8em;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  border-bottom: 2px black solid;
+  font-size: 2em;
+  transition: .9s;
+}
+
+footer {
+  clear: left;
+  color: black;
+  font-weight: bold;
+}
