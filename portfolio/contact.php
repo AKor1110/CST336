@@ -9,10 +9,7 @@ $comments = $_POST["comments"];
 $data = array($name, $email, $address, $phone, $comments);
 $json = json_encode($data, JSON_NUMERIC_CHECK);
 
-$file = fopen("messages/comments.txt", "a");
-fwrite($file, $json);
-fwrite($file, "\n");
-fclose($file);
+echo "<script> console.log($json); </script>";
 
 header("location: contact.html");
 
