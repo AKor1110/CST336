@@ -72,6 +72,10 @@ header {
   color: silver;
 }
 
+h3 {
+  color: black;
+}
+
 #comments {
   width: 300px;
   height: 100px;
