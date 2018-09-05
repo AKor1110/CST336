@@ -1,4 +1,9 @@
+function onClick() {
+    console.log(this.id);
+}
+
 function clickEmbedded() {
+    console.log("here");
     $("#contact-form").empty();
     $("#contact-form").append('<form action = "contact.php" method = "post">');
     $("#contact-form").append('<h2> Contact Me </h2>');

@@ -76,6 +76,10 @@ h3 {
   color: black;
 }
 
+#button {
+  float:center;
+}
+
 #comments {
   width: 300px;
   height: 100px;

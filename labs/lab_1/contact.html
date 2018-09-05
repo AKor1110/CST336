@@ -15,6 +15,7 @@ in html
       <meta charset = "utf-8">
       <title> Andy Kor: Personal Website </title>
       <link href = "css/styles.css" rel = "stylesheet" type = "text/css"/>
+      <script src="js/script.js"></script>
       <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
       <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
@@ -30,14 +31,15 @@ in html
           <hr width = "50%" />
           <a id = "home" href = "index.html"> Home </a>
           <a id = "about" href = "about.html"> About </a>
-          <a id = "contact" href = "contact.html"> Contact </a>
+          <a id = "contact" href = "contact.html" style = "color: cornflowerblue;"> Contact </span> </a>
        </nav>
 
        <br /> <br />
 
        <div id = "content">
-
+         
          <div id = "contact-form">
+           <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScGZFuI6Xi1iPtGA4-DSdISyX3r1snT6NdfsCdC6WS_l4En7g/viewform?embedded=true" width="640" height="1016" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe> -->
            <form action = "contact.php" method = "post">
              <h2> Contact Me </h2>
 
@@ -77,7 +79,7 @@ in html
             <br />
 
             <figure>
-              <img id = "csumbLogo" src = "img/csumb_logo.png" alt = "CSUMB Logo"/>
+              <img id = "csumbLogo" src = "../../templates/img/csumb_logo.png" alt = "CSUMB Logo"/>
             </figure>
 
 
@@ -105,16 +107,6 @@ in html
 
        return (key == 8 || key == 9 || key == 46 || (key >= 48 && key <= 57) || (key >= 96 && key <= 105));
      });
-     
-     /*
-     $("#contact-form").submit(function() {
-        setTimeout(function () { swal({
-					          title: "Message Sent!",
-					        });
-        }, 2);
-     });
-     
-     */
      
     });
     
