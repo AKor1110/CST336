@@ -11,18 +11,37 @@
     </head>
     <body>
         
-        <header> Syntax Analysis </header>
+        <header> Compiler Design </header>
+        <br />
+        
         
         <nav>
             <a href = "index.php"> Introduction </a>
             <a href = "lexicalAnalysis.php"> Lexical Analysis </a>
-            <a href = "syntaxAnalysis.php"> Syantax Analysis </a>
-            <a href = "syntaxDirectedTranslation.php"> Syntax Directed Translation </a>
+            <a href = "syntaxAnalysis.php" style = "background-color: white; color: cornflowerblue;"> Syantax Analysis </a>
+            <a href = "runtimeEnvironments.php"> Runtime Environments  </a>
             <a href = "resources.php"> Resources </a>
         </nav>
         
-        
+        <hr>
 
+        <h2>How do you analyze syntax?</h2>
+        <p>
+            <strong> Syntax Analysis</strong> is done after lexical analysis, and 
+            verifies if the syntactical structure of the input is correct or not.
+        </p>
+        
+        <p>
+            A compiler analyzes syntax by building a data structure called a 
+            Parse tree or Syntax tree. The tree utilizes the predefined grammar
+            of a language. <strong> If the given input can be created with the
+            use of a syntax tree, then the input is found to have the correct syntax.</strong>
+        </p>
+        
+        <br />
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/TkRy17gnq3E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        
         <footer>
         
             <hr>
@@ -32,7 +51,9 @@
                 It is used for academic purposes only.
     
                 <br />
-
+            <figure>
+                <img id = "csumbLogo" src = "../../templates/img/csumb_logo.png" alt = "CSUMB Logo"/>
+            </figure>
 
         </footer>
 

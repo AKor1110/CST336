@@ -18,6 +18,7 @@ nav a {
   font-size: 1.8em;
   text-decoration: none;
   color: white;
+  border-radius: 3px;
 }
 
 nav a:hover {
@@ -30,4 +31,58 @@ footer {
   clear: left;
   color: black;
   font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+}
+
+iframe {
+  padding-left: 39%;
+  padding-bottom: 5%;
+}
+
+p {
+  text-align: center;
+  font-size: 22px;
+  font-family: serif;
+}
+
+li {
+  font-size: 18px;
+  font-family: monospace;
+}
+
+#imgTitle {
+  padding-right: 34%;
+}
+
+#validTokens {
+  padding-left: 44%;
+}
+
+#codeExample {
+  padding-left: 44%;
+  font-size: 20px;
+}
+
+#colLeft {
+  float: left;
+  width: 35%;
+  padding-left: 5%;
+}
+
+#colRight {
+  float: left;
+  width: 30%;
+  padding-left: 10%;
+}
+
+#resources {
+  text-align: center;
+}
+
+#resource {
+  font-size: 30px;
+  color: white;
 }

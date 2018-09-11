@@ -11,17 +11,32 @@
     </head>
     <body>
         
-        <header> Resources </header>
+        <header> Compiler Design </header>
+        <br />
         
         <nav>
             <a href = "index.php"> Introduction </a>
             <a href = "lexicalAnalysis.php"> Lexical Analysis </a>
             <a href = "syntaxAnalysis.php"> Syantax Analysis </a>
-            <a href = "syntaxDirectedTranslation.php"> Syntax Directed Translation </a>
-            <a href = "resources.php"> Resources </a>
+            <a href = "runtimeEnvironments.php"> Runtime Environments  </a>
+            <a href = "resources.php" style = "background-color: white; color: cornflowerblue;"> Resources </a>
         </nav>
         
+        <hr>
+        <br />
         
+        <div id = "resources">
+          <a id = "resource" href = "https://www.geeksforgeeks.org/introduction-compiler-design/" target="blank"> Introduction </a> <br /><br />
+          <a id = "resource" href = "https://www.geeksforgeeks.org/compiler-lexical-analysis/" target="blank"> Lexical Analysis</a> <br /><br />
+          <a id = "resource" href = "https://www.geeksforgeeks.org/compiler-design-introduction-to-syntax-analysis/" target="blank"> Syntax Analysis</a> <br /><br />
+          <a id = "resource" href = "https://www.tutorialspoint.com/compiler_design/compiler_design_runtime_environment.htm" target="blank"> Runtime Environment</a><br /><br />
+        </div>
+        
+        <br />
+        
+        <div>
+            
+        </div>
 
         <footer>
         
@@ -33,7 +48,10 @@
     
                 <br />
 
-
+            <figure>
+                <img id = "csumbLogo" src = "../../templates/img/csumb_logo.png" alt = "CSUMB Logo"/>
+            </figure>
+            
         </footer>
 
     </body>
