@@ -53,6 +53,7 @@
                 <br />
             <figure>
                 <img id = "csumbLogo" src = "../../templates/img/csumb_logo.png" alt = "CSUMB Logo"/>
+                <img id = "buddyVerified" src = "../../templates/img/buddy_verified.png" alt = "Buddy Verified" />
             </figure>
 
         </footer>
