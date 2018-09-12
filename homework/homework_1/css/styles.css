@@ -2,7 +2,15 @@ body {
     background-color: cornflowerblue;
 }
 
-header, main, nav, footer {
+footer {
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}
+
+main {
   text-align: center;
 }
 
@@ -10,6 +18,10 @@ header {
   font-family: cursive;
   font-size: 45px;
   color: silver;
+}
+
+nav {
+  text-align: center;
 }
 
 nav a {
