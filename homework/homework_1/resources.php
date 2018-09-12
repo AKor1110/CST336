@@ -26,10 +26,10 @@
         <br />
         
         <div id = "resources">
-          <a id = "resource" href = "https://www.geeksforgeeks.org/introduction-compiler-design/" target="blank"> Introduction </a> <br /><br />
-          <a id = "resource" href = "https://www.geeksforgeeks.org/compiler-lexical-analysis/" target="blank"> Lexical Analysis</a> <br /><br />
-          <a id = "resource" href = "https://www.geeksforgeeks.org/compiler-design-introduction-to-syntax-analysis/" target="blank"> Syntax Analysis</a> <br /><br />
-          <a id = "resource" href = "https://www.tutorialspoint.com/compiler_design/compiler_design_runtime_environment.htm" target="blank"> Runtime Environment</a><br /><br />
+          <a class = "resource" href = "https://www.geeksforgeeks.org/introduction-compiler-design/" target="blank"> Introduction </a> <br /><br />
+          <a class = "resource" href = "https://www.geeksforgeeks.org/compiler-lexical-analysis/" target="blank"> Lexical Analysis</a> <br /><br />
+          <a class = "resource" href = "https://www.geeksforgeeks.org/compiler-design-introduction-to-syntax-analysis/" target="blank"> Syntax Analysis</a> <br /><br />
+          <a class = "resource" href = "https://www.tutorialspoint.com/compiler_design/compiler_design_runtime_environment.htm" target="blank"> Runtime Environment</a><br /><br />
         </div>
         
         <br />
