@@ -65,6 +65,7 @@
                Consider the program: <br />
                
                <div id = "codeExample">
+                   <!-- Can use code tag to format code -->
                    int main() { <br />
                    &nbsp;&nbsp; int a, b; <br />
                    &nbsp;&nbsp; a = 10; <br />
