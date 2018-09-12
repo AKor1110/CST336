@@ -27,7 +27,7 @@
 
         <h2>How do you analyze syntax?</h2>
         <p>
-            <strong> Syntax Analysis</strong> is done after lexical analysis, and 
+            <strong> <u>Syntax Analysis</u></strong> is done after lexical analysis, and 
             verifies if the syntactical structure of the input is correct or not.
         </p>
         

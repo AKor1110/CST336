@@ -31,19 +31,19 @@
            <h2>What is a compiler?</h2>
            
            <p>
-               A <strong>compiler</strong> is a software which converts a program
+               A <strong><u>compiler</u></strong> is a software which converts a program
                written in high level programming languages to a low
                level programming language.
            </p>
            
            <p>
-               <strong>High level languages </strong> contain directives such as
+               <strong><u>High level languages</u> </strong> contain directives such as
                <i>#include</i> and <i>#define.</i> These tags direct the pre-processor
                about what to do on compilation.
            </p>
            
            <p>
-               The <strong>pre-processor</strong> performs actions such as file inclusion
+               The <strong><u>pre-processor</u></strong> performs actions such as file inclusion
                by removing the <i>#include</i> directives, and macro expansion through
                <i>#define</i> directives.
            </p>

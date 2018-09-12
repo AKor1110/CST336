@@ -29,7 +29,7 @@
             <h2> What is a runtime environment? </h2>
             
             <p>
-                <strong>Runtime environment</strong> is a state of the target machine
+                <strong><u>Runtime environment</u></strong> is a state of the target machine
                 which may include software libraries, environment variables, etc., to 
                 provide services to the processes running in the system.
             </p>
@@ -56,7 +56,7 @@
                 a sequential manner and every called procedure receives a procedure's
                 controls. After executing a called procedure, it returns the control
                 back to the caller. It is easy to visualize this control flow in a
-                representation of a tree, an <strong> activation tree</strong>.
+                representation of a tree, an <strong><u>activation tree</u></strong>.
             </p>
                 
             <br />

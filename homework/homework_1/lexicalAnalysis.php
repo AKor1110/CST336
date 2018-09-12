@@ -35,7 +35,7 @@
             <h2>Tokens</h2>
            
            <p>
-               <strong>Tokens</strong> are strings of characters that can be organized
+               <strong><u>Tokens</u></strong> are strings of characters that can be organized
                as units of grammar of the programming language.
            </p>
            
