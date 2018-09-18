@@ -1,0 +1,48 @@
+[17-Sep-2018 18:42:22 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php on line 45
+[17-Sep-2018 18:42:22 UTC] PHP Stack trace:
+[17-Sep-2018 18:42:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php:0
+[17-Sep-2018 18:42:22 UTC] PHP   2. makeString() /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php:52
+[17-Sep-2018 18:42:50 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php on line 45
+[17-Sep-2018 18:42:50 UTC] PHP Stack trace:
+[17-Sep-2018 18:42:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php:0
+[17-Sep-2018 18:42:50 UTC] PHP   2. makeBinNum() /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php:52
+[17-Sep-2018 18:43:05 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php on line 45
+[17-Sep-2018 18:43:05 UTC] PHP Stack trace:
+[17-Sep-2018 18:43:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php:0
+[17-Sep-2018 18:43:05 UTC] PHP   2. makeBinNum() /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php:52
+[17-Sep-2018 18:43:06 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php on line 45
+[17-Sep-2018 18:43:06 UTC] PHP Stack trace:
+[17-Sep-2018 18:43:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php:0
+[17-Sep-2018 18:43:06 UTC] PHP   2. makeBinNum() /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php:52
+[17-Sep-2018 18:43:07 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php on line 45
+[17-Sep-2018 18:43:07 UTC] PHP Stack trace:
+[17-Sep-2018 18:43:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php:0
+[17-Sep-2018 18:43:07 UTC] PHP   2. makeBinNum() /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php:52
+[17-Sep-2018 18:43:53 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php on line 45
+[17-Sep-2018 18:43:53 UTC] PHP Stack trace:
+[17-Sep-2018 18:43:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php:0
+[17-Sep-2018 18:43:53 UTC] PHP   2. makeString() /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php:53
+[17-Sep-2018 18:46:10 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php on line 45
+[17-Sep-2018 18:46:10 UTC] PHP Stack trace:
+[17-Sep-2018 18:46:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php:0
+[17-Sep-2018 18:46:10 UTC] PHP   2. makeString() /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php:53
+[17-Sep-2018 18:54:50 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php on line 45
+[17-Sep-2018 18:54:50 UTC] PHP Stack trace:
+[17-Sep-2018 18:54:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php:0
+[17-Sep-2018 18:54:50 UTC] PHP   2. makeString() /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php:53
+[17-Sep-2018 18:55:09 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php on line 45
+[17-Sep-2018 18:55:09 UTC] PHP Stack trace:
+[17-Sep-2018 18:55:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php:0
+[17-Sep-2018 18:55:09 UTC] PHP   2. makeString() /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php:52
+[17-Sep-2018 18:55:10 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php on line 45
+[17-Sep-2018 18:55:10 UTC] PHP Stack trace:
+[17-Sep-2018 18:55:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php:0
+[17-Sep-2018 18:55:10 UTC] PHP   2. makeString() /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php:52
+[17-Sep-2018 18:55:42 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php on line 45
+[17-Sep-2018 18:55:42 UTC] PHP Stack trace:
+[17-Sep-2018 18:55:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php:0
+[17-Sep-2018 18:55:42 UTC] PHP   2. makeString() /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php:52
+[17-Sep-2018 18:57:00 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php on line 45
+[17-Sep-2018 18:57:00 UTC] PHP Stack trace:
+[17-Sep-2018 18:57:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php:0
+[17-Sep-2018 18:57:00 UTC] PHP   2. makeString() /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php:53

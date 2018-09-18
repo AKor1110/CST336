@@ -17,7 +17,7 @@
         <nav>
             <a href = "index.php"> Introduction </a>
             <a href = "lexicalAnalysis.php" style = "background-color: white; color: cornflowerblue;"> Lexical Analysis </a>
-            <a href = "syntaxAnalysis.php"> Syantax Analysis </a>
+            <a href = "syntaxAnalysis.php"> Syntax Analysis </a>
             <a href = "runtimeEnvironments.php"> Runtime Environments  </a>
             <a href = "resources.php"> Resources </a>
         </nav>

@@ -1,0 +1,5 @@
+Binary String: 10001001
+Decimal: 137
+Hexadecimal: 89
+1's Complement: 01110110
+2's Complement: 01110111

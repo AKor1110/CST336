@@ -1,0 +1,9 @@
+[17-Sep-2018 21:20:56 UTC] PHP Fatal error:  Call to undefined function intdiv() in /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php on line 40
+[17-Sep-2018 21:20:56 UTC] PHP Stack trace:
+[17-Sep-2018 21:20:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_2/index.php:0
+[17-Sep-2018 21:20:56 UTC] PHP   2. main() /home/ubuntu/workspace/CST336/homework/homework_2/index.php:18
+[17-Sep-2018 21:20:56 UTC] PHP   3. binToHex() /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php:80
+[17-Sep-2018 22:41:27 UTC] PHP Fatal error:  Call to undefined function printr() in /home/ubuntu/workspace/CST336/homework/homework_2/inc/functions.php on line 93
+[17-Sep-2018 22:41:27 UTC] PHP Stack trace:
+[17-Sep-2018 22:41:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_2/index.php:0
+[17-Sep-2018 22:41:27 UTC] PHP   2. displayTwos() /home/ubuntu/workspace/CST336/homework/homework_2/index.php:38
