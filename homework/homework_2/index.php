@@ -22,40 +22,30 @@
         <?php
             include "inc/functions.php";
             $binaryStr = main();
-        ?>
         
-        <br />
-        <br />
-    
-        
-        
-        <br />
-        <br />
-        
-        <?php
             $dec = binToDec($binaryStr);
             $hex = binToHex($binaryStr);
             $ones = binToOnes($binaryStr);
             $twos = binToTwos($binaryStr);
             $str = binaryStrtoStr($binaryStr);
             
+            echo "<div id = conversions>";
             displayDec($dec);
             displayHex($hex);
             displayOnes($ones);
             displayTwos($twos);
+            echo "</div>";
             
             //writeToFile($str, $dec, $hex, $ones, $twos);
         ?>
         
-        <br />
-        <br />
-        <br />
-        <br />
-        <form id = "resubmit" input = "submit">
-            <input id = "regen" type = "submit" value = "Regenerate String" />
-        </form>
-        <br />
+        <div id = "regenerate">
+            <form id = "resubmit" input = "submit">
+                <input id = "regen" type = "submit" value = "Regenerate String" />
+            </form>
+        </div>
         
+
         <!--<a href = "./binaryInfo.txt" download>-->
         <!--    <button id = "download" type = "button"> Download Binary Information</button>-->
         <!--</a>-->

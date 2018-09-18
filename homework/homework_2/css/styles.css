@@ -17,8 +17,12 @@ h4 {
     text-align: center;
 }
 
+#conversions {
+    margin-bottom: 100px;
+}
+
 #binStr {
-    padding-left: 18%;
+    margin: 2% 18%;
 }
 
 #binStr:after {
@@ -53,8 +57,8 @@ h4 {
     float: left;
 }
 
-#resubmit {
-    padding-left: 43%;    
+#regenerate {
+    margin: 80px 42%;
 }
 
 
