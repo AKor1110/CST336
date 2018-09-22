@@ -29,7 +29,6 @@ function winner($p1, $p2) {
         // If player 1 is scissors, player 2 picks paper then p1 wins,
         // otherwise p2 wins because rock > scissors.
         return ($p2 == 0 ? "p1" : "p2");
-        
     }
 }
 
@@ -87,6 +86,7 @@ function getMoves() {
 function play() {
     // Keeps track of each round.
     $rounds = array();
+    // "p1", "p2", "p1" = p1 overall winner
     
     for ($i = 0; $i < 3; $i++) {
         // Generate the players' moves.

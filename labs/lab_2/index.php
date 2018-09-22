@@ -20,5 +20,16 @@
         
         </div>
         
+        <footer>
+
+            <figure>
+              <img id = "buddyVerified" src = "../../templates/img/buddy_verified.png" alt = "Buddy Verified" />
+            </figure>
+
+
+        </footer>
+        
     </body>
+    
+    
 </html>
