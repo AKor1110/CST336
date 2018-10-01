@@ -252,3 +252,295 @@
 [24-Sep-2018 19:36:04 UTC] PHP Stack trace:
 [24-Sep-2018 19:36:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice3/reviews.php:0
 [24-Sep-2018 19:36:04 UTC] PHP   2. getPosters() /home/ubuntu/workspace/CST336/practice/practice3/reviews.php:102
+[01-Oct-2018 19:40:03 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 86
+[01-Oct-2018 19:58:48 UTC] PHP Parse error:  syntax error, unexpected '$cards' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 39
+[01-Oct-2018 20:04:25 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 49
+[01-Oct-2018 20:04:47 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 49
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 79
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:79
+[01-Oct-2018 20:11:45 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336/practice/practice4/index.php on line 84
+[01-Oct-2018 20:11:45 UTC] PHP Stack trace:
+[01-Oct-2018 20:11:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/practice/practice4/index.php:0
+[01-Oct-2018 20:11:45 UTC] PHP   2. strpos() /home/ubuntu/workspace/CST336/practice/practice4/index.php:84
