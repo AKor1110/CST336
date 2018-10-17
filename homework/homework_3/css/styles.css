@@ -1,0 +1,71 @@
+html {
+    background-color: cornflowerblue;
+}
+
+h1 {
+    text-align:center;
+    font-size: 70px;
+}
+
+form {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+.inputText {
+    font-size: 40px;
+    margin-right: 5px;
+}
+
+body {
+    text-align: center;
+}
+
+#finalPass {
+    width: 600px;
+    text-align: center;
+    font-size: 35px;
+    color: cornflowerblue;
+}
+
+#copyButton {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background-color: black;
+    color: cornflowerblue;
+}
+
+#keyword {
+    width: 300px;
+    height: 30px;
+    font-size: 15px;
+}
+
+#passSize {
+    width: 50px;
+    height: 30px;
+    font-size: 15px;
+}
+
+#submitButton {
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+}
+
+input[type='checkbox'] {
+    -webkit-appearance:none;
+    width:30px;
+    height:30px;
+    background:white;
+    border-radius:5px;
+    border:2px solid #555;
+}
+
+input[type='checkbox']:checked {
+    background: yellow;
+}
