@@ -1,35 +1,42 @@
-[17-Oct-2018 18:01:16 UTC] PHP Parse error:  syntax error, unexpected 'private' (T_PRIVATE), expecting identifier (T_STRING) in /home/ubuntu/workspace/CST336/homework/homework_3/core/Password.php on line 4
-[17-Oct-2018 18:01:16 UTC] PHP Stack trace:
-[17-Oct-2018 18:01:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:0
-[17-Oct-2018 18:01:41 UTC] PHP Parse error:  syntax error, unexpected '(', expecting ',' or ';' in /home/ubuntu/workspace/CST336/homework/homework_3/core/Password.php on line 4
-[17-Oct-2018 18:01:41 UTC] PHP Stack trace:
-[17-Oct-2018 18:01:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:0
-[17-Oct-2018 18:02:35 UTC] PHP Parse error:  syntax error, unexpected '(', expecting ',' or ';' in /home/ubuntu/workspace/CST336/homework/homework_3/core/Password.php on line 4
-[17-Oct-2018 18:02:35 UTC] PHP Stack trace:
-[17-Oct-2018 18:02:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:0
-[17-Oct-2018 18:02:49 UTC] PHP Parse error:  syntax error, unexpected '$CAPS' (T_VARIABLE), expecting function (T_FUNCTION) in /home/ubuntu/workspace/CST336/homework/homework_3/core/Password.php on line 4
-[17-Oct-2018 18:02:49 UTC] PHP Stack trace:
-[17-Oct-2018 18:02:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:0
-[17-Oct-2018 18:05:55 UTC] PHP Parse error:  syntax error, unexpected '(', expecting ',' or ';' in /home/ubuntu/workspace/CST336/homework/homework_3/core/Password.php on line 4
-[17-Oct-2018 18:05:55 UTC] PHP Stack trace:
-[17-Oct-2018 18:05:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:0
-[17-Oct-2018 18:30:58 UTC] PHP Fatal error:  Call to undefined function extractChecks() in /home/ubuntu/workspace/CST336/homework/homework_3/core/Password.php on line 18
-[17-Oct-2018 18:30:58 UTC] PHP Stack trace:
-[17-Oct-2018 18:30:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:0
-[17-Oct-2018 18:30:58 UTC] PHP   2. Password->__construct() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:75
-[17-Oct-2018 18:33:37 UTC] PHP Fatal error:  Call to undefined function getRandomNum() in /home/ubuntu/workspace/CST336/homework/homework_3/core/Password.php on line 71
-[17-Oct-2018 18:33:37 UTC] PHP Stack trace:
-[17-Oct-2018 18:33:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:0
-[17-Oct-2018 18:33:37 UTC] PHP   2. Password->generatePassword() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:76
-[17-Oct-2018 18:53:40 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/homework/homework_3/index.php on line 39
-[17-Oct-2018 18:53:40 UTC] PHP Stack trace:
-[17-Oct-2018 18:53:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:0
-[17-Oct-2018 18:53:40 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:39
-[17-Oct-2018 18:53:40 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/homework/homework_3/index.php on line 42
-[17-Oct-2018 18:53:40 UTC] PHP Stack trace:
-[17-Oct-2018 18:53:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:0
-[17-Oct-2018 18:53:40 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:42
-[17-Oct-2018 18:53:40 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/homework/homework_3/index.php on line 45
-[17-Oct-2018 18:53:40 UTC] PHP Stack trace:
-[17-Oct-2018 18:53:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:0
-[17-Oct-2018 18:53:40 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:45
+[17-Oct-2018 19:44:55 UTC] PHP Warning:  include(core/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/homework/homework_3/index.php on line 4
+[17-Oct-2018 19:44:55 UTC] PHP Stack trace:
+[17-Oct-2018 19:44:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:0
+[17-Oct-2018 19:44:55 UTC] PHP Warning:  include(): Failed opening 'core/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/homework/homework_3/index.php on line 4
+[17-Oct-2018 19:44:55 UTC] PHP Stack trace:
+[17-Oct-2018 19:44:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:0
+[17-Oct-2018 19:44:55 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/homework/homework_3/index.php on line 39
+[17-Oct-2018 19:44:55 UTC] PHP Stack trace:
+[17-Oct-2018 19:44:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:0
+[17-Oct-2018 19:44:55 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:39
+[17-Oct-2018 19:44:55 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/homework/homework_3/index.php on line 42
+[17-Oct-2018 19:44:55 UTC] PHP Stack trace:
+[17-Oct-2018 19:44:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:0
+[17-Oct-2018 19:44:55 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:42
+[17-Oct-2018 19:44:55 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/homework/homework_3/index.php on line 45
+[17-Oct-2018 19:44:55 UTC] PHP Stack trace:
+[17-Oct-2018 19:44:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:0
+[17-Oct-2018 19:44:55 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:45
+[17-Oct-2018 19:45:03 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/homework/homework_3/index.php on line 38
+[17-Oct-2018 19:45:03 UTC] PHP Stack trace:
+[17-Oct-2018 19:45:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:0
+[17-Oct-2018 19:45:03 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:38
+[17-Oct-2018 19:45:03 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/homework/homework_3/index.php on line 41
+[17-Oct-2018 19:45:03 UTC] PHP Stack trace:
+[17-Oct-2018 19:45:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:0
+[17-Oct-2018 19:45:03 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:41
+[17-Oct-2018 19:45:03 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/homework/homework_3/index.php on line 44
+[17-Oct-2018 19:45:03 UTC] PHP Stack trace:
+[17-Oct-2018 19:45:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:0
+[17-Oct-2018 19:45:03 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:44
+[17-Oct-2018 20:14:20 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/homework/homework_3/index.php on line 38
+[17-Oct-2018 20:14:20 UTC] PHP Stack trace:
+[17-Oct-2018 20:14:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:0
+[17-Oct-2018 20:14:20 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:38
+[17-Oct-2018 20:14:20 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/homework/homework_3/index.php on line 41
+[17-Oct-2018 20:14:20 UTC] PHP Stack trace:
+[17-Oct-2018 20:14:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:0
+[17-Oct-2018 20:14:20 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:41
+[17-Oct-2018 20:14:20 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/homework/homework_3/index.php on line 44
+[17-Oct-2018 20:14:20 UTC] PHP Stack trace:
+[17-Oct-2018 20:14:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:0
+[17-Oct-2018 20:14:20 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:44

@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 
 <?php
-    include "core/functions.php";
     include "core/Password.php";
 ?>
 
@@ -17,7 +16,7 @@
               var copyText = document.getElementById("finalPass");
               copyText.select();
               document.execCommand("copy");
-              alert("Copied the text: " + copyText.value);
+              alert("Copied password: " + copyText.value);
             }
         </script>
     </header>
@@ -27,23 +26,23 @@
         <h1>Andy's Password Generator</h1>
         
         <form id = "getPass" method = "post">
-            <span class = "inputText">Password Size:</span> <input id = "passSize" type = "number" name = "passSize" value = "<?php echo (empty($_POST["passSize"]) ? "6" : $_POST["passSize"]); ?>" min = "6" max = "30">
+            <span class = "inputPassword">Password Size:</span> <input id = "passSize" type = "number" name = "passSize" value = "<?php echo (empty($_POST["passSize"]) ? "6" : $_POST["passSize"]); ?>" min = "6" max = "30">
             <br />
             <br />
             
-            <span class = "inputText">Keyword:</span> <input id = "keyword" type = "text" name = "passKeyword" value = "<?php echo (!empty($_POST["passKeyword"]) ? $_POST["passKeyword"] : " "); ?>">
+            <span class = "inputKeyword">Keyword:</span> <input id = "keyword" type = "text" name = "passKeyword" value = "<?php echo (!empty($_POST["passKeyword"]) ? $_POST["passKeyword"] : " "); ?>">
             <br />
             <br />
             
             <span class = "inputText">Includes:</span> <br />
             <input type = "checkbox" name= "alphanumeric[]" value= "numbers" <?php if (in_array("numbers", $_POST['alphanumeric'])) echo "checked='checked'"; ?>>
-            <span class = "inputText"> Numbers [0-9] </span> <br />
+            <span class = "numbersText"> Numbers [0-9] </span> <br />
             
             <input type = "checkbox" name= "alphanumeric[]" value= "symbols" <?php if (in_array("symbols", $_POST['alphanumeric'])) echo "checked='checked'"; ?>>
-            <span class = "inputText"> Symbols [#, $, %, etc.] </span> <br />
+            <span class = "symbolsText"> Symbols [#, $, %, etc.] </span> <br />
             
             <input type = "checkbox" name= "alphanumeric[]" value= "caps" <?php if (in_array("caps", $_POST['alphanumeric'])) echo "checked='checked'"; ?>>
-            <span class = "inputText"> Capital Characters </span> <br /><br />
+            <span class = "capsText"> Capital Characters </span> <br /><br />
             
             <input id = "submitButton" type = "submit" name = "submit" value = "Submit">
         </form>
@@ -57,7 +56,7 @@
                     $passSize = $_POST["passSize"];
                 } else {
                     $passSize = null;
-                    echo "<h2> You must enter a password size! </h2>";
+                    echo "<h2 class = 'error'> You must enter a password size! </h2>";
                 }
                 
                 // Keyword
@@ -65,7 +64,7 @@
                     $passKeyword = $_POST["passKeyword"];
                 } else {
                     $passKeyword = null;
-                    echo "<h2> You must enter a keyword! </h2>";
+                    echo "<h2 class = 'error'> You must enter a keyword! </h2>";
                 }
                 
                 // Numbers, Symbols, and Caps
@@ -74,12 +73,12 @@
                     // this should be an array w checkbox vals
                 } else {
                     $alphas = null;
-                    echo "<h2> You must check at least one box! </h2>";
+                    echo "<h2 class = 'error'> You must check at least one box! </h2>";
                 }
                 
                 if ($passKeyword != null && $alphas != null) {
-                    if ($passSize < strlen($passKeyword)) {
-                        echo "<h2> Password size is smaller than keyword! </h2>";
+                    if ($passSize <= strlen($passKeyword)) {
+                        echo "<h2 class = 'error'> Password size must be bigger than keyword! </h2>";
                     } else {
                         $passObj = new Password($alphas, $passKeyword, $passSize);
                         $password = $passObj->generatePassword();
@@ -87,6 +86,7 @@
                         echo "<br />";
                         echo "<br />";
                         echo "<button id = 'copyButton' onclick = 'copy()'> Copy! </button>";
+                        echo "<br />";
                     }
                 }
             }

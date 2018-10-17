@@ -69,3 +69,36 @@ input[type='checkbox'] {
 input[type='checkbox']:checked {
     background: yellow;
 }
+
+.error {
+    color: red;
+}
+
+.symbolsText {
+    font-size: 40px;
+    margin-right: 5px;
+}
+
+.numbersText {
+    font-size: 40px;
+    margin-right: 5px;
+}
+
+.capsText {
+    font-size: 40px;
+    margin-right: 5px;
+}
+
+.inputPassword {
+    font-size: 40px;
+    margin-right: 5px;
+}
+
+.inputKeyword {
+    font-size: 40px;
+    margin-right: 5px;
+}
+
+figure {
+    text-align: center;
+}
