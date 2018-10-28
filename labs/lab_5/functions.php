@@ -68,7 +68,12 @@ function displayCart() {
 }
 
 function displayCartCount() {
-    return count($_SESSION["cart"]);
+    $count = 0;
+    
+    foreach ($_SESSION["cart"] as $item) {
+        $count += $item["quantity"];   
+    }
+    return $count;
 }
 
 
