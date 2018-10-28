@@ -95,6 +95,7 @@ function displaySearchResults() {
                 Product: <input type = "text" name = "product" />
                 
                 <br />
+                <br />
                 
                 Category:
                 <select name = "category">
@@ -104,10 +105,12 @@ function displaySearchResults() {
                 </select>
                 
                 <br />
+                <br />
                 
                 Price: From <input type = "text" name = "priceFrom" size = "7" />
                        To <input type = "text" name = "priceTo" size = "7" />
                 
+                <br />
                 <br />
                 
                 Order result by:
