@@ -3,6 +3,7 @@
 include "Item.php";
 
 function includeNavBar() {
+    $count = displayCartCount();
     echo "<nav class='navbar navbar-default - navbar-fixed-top'>
                 <div class='container-fluid'>
                     <div class='navbar-header'>
@@ -12,7 +13,7 @@ function includeNavBar() {
                         <li><a href='index.php'>Home</a></li>
                         <li><a href='scart.php'>
                         <span class = 'glyphicon glyphicon-shopping-cart' aria-hidden = 'true'></span>
-                        Cart: <?php displayCartCount(); ?></a></li>
+                        Cart: $count </a></li>
                     </ul>
                 </div>
             </nav>";
@@ -22,11 +23,15 @@ function displayResults() {
     global $items;
     
     if (isset($items) && !empty($items)) {
+        $results = 0;
+        
         echo "<table class = 'table' >";
         
         foreach ($items as $_item) {
+            if ($results > 14) break;
             $item = new Item($_item);
             $item->displayRow();
+            $results++;
         }
         
         echo "</table>";
@@ -63,7 +68,7 @@ function displayCart() {
 }
 
 function displayCartCount() {
-    echo count($_SESSION["cart"]);
+    return count($_SESSION["cart"]);
 }
 
 

@@ -8,6 +8,7 @@
     }
     
     if (isset($_POST["itemName"])) {
+
         $newItem = json_decode($_POST["itemName"], TRUE);
         $found = false;
         

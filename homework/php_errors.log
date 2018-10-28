@@ -40,3 +40,27 @@
 [17-Oct-2018 20:14:20 UTC] PHP Stack trace:
 [17-Oct-2018 20:14:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:0
 [17-Oct-2018 20:14:20 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:44
+[17-Oct-2018 21:27:33 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/homework/homework_3/index.php on line 38
+[17-Oct-2018 21:27:33 UTC] PHP Stack trace:
+[17-Oct-2018 21:27:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:0
+[17-Oct-2018 21:27:33 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:38
+[17-Oct-2018 21:27:33 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/homework/homework_3/index.php on line 41
+[17-Oct-2018 21:27:33 UTC] PHP Stack trace:
+[17-Oct-2018 21:27:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:0
+[17-Oct-2018 21:27:33 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:41
+[17-Oct-2018 21:27:33 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/homework/homework_3/index.php on line 44
+[17-Oct-2018 21:27:33 UTC] PHP Stack trace:
+[17-Oct-2018 21:27:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:0
+[17-Oct-2018 21:27:33 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:44
+[17-Oct-2018 21:29:12 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/homework/homework_3/index.php on line 38
+[17-Oct-2018 21:29:12 UTC] PHP Stack trace:
+[17-Oct-2018 21:29:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:0
+[17-Oct-2018 21:29:12 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:38
+[17-Oct-2018 21:29:12 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/homework/homework_3/index.php on line 41
+[17-Oct-2018 21:29:12 UTC] PHP Stack trace:
+[17-Oct-2018 21:29:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:0
+[17-Oct-2018 21:29:12 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:41
+[17-Oct-2018 21:29:12 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/CST336/homework/homework_3/index.php on line 44
+[17-Oct-2018 21:29:12 UTC] PHP Stack trace:
+[17-Oct-2018 21:29:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:0
+[17-Oct-2018 21:29:12 UTC] PHP   2. in_array() /home/ubuntu/workspace/CST336/homework/homework_3/index.php:44
