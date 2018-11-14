@@ -12,6 +12,7 @@
 body {
 	margin-left: 25%;
 	background-color: cornflowerblue;
+	overflow: hidden;
 }
 
 h2 {
