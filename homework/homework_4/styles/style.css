@@ -1,0 +1,29 @@
+#gameScreen{
+	position: relative;
+	background-color: silver;
+	overflow: hidden;
+}
+
+.gameObject{
+	position: absolute;
+	z-index: 1;
+}
+
+body {
+	margin-left: 25%;
+	background-color: cornflowerblue;
+}
+
+h2 {
+	margin-left: 25%;
+}
+
+input {
+	margin-left: 30%;
+	font-size: 24px;
+	
+}
+
+#buddyVerified {
+	margin-left: 30%;
+}
