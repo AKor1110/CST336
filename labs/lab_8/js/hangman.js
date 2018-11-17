@@ -99,7 +99,7 @@ function checkLetter(letter) {
         
         if (!board.includes("_")) {
             endGame(true);
-            guessedWords.push(selectedWord);
+            //guessedWords.push(selectedWord);
             //$("#guessedWordsList").append("<li> " + selectedWord + "</li>");
         }
     } else {
