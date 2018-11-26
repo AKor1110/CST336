@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html>
+    <header>
+        <link  href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body {
+                text-align:center;
+            }
+            
+            table {
+                margin-left: 36%;
+            }
+            
+            #confirm {
+                color: red;
+            }
+        </style>
+        
+        <script>
+        var changeValues = 
+            function () {
+                var shippingCost = parseInt($("input[name=shippingType]:checked").val());
+                var fruitCakeQuantity = $("#fruitCakeQuantity").val();
+                var pinataQuantity = $("#pinataQuantity").val();
+                
+                var fruitCakeTotal = fruitCakeQuantity * 30;
+                var pinataTotal = pinataQuantity * 20;
+                
+                // Change totals for the items.
+                $("#fruitCakeTotal").text("$" + fruitCakeTotal);
+                $("#pinataTotal").text("$" + pinataTotal);
+                
+                
+                    
+                var subtotal = fruitCakeTotal + pinataTotal + shippingCost;
+                var tax = (subtotal) * .10;
+                var total = subtotal + tax;
+                
+                // Changes all the sums of values.
+                $("#shipping").text("$" + shippingCost);
+                $("#subtotal").text("$" + subtotal);
+                $("#tax").text("$" + tax);
+                $("#total").text("$" + total);
+            };
+        
+        $(document).ready(function () {
+            $("#fruitCakeQuantity").change(changeValues);
+            $("#pinataQuantity").change(changeValues);
+            $("input[type=radio][name=shippingType]").change(changeValues);
+            $("#terms").change(function() {
+                if (!this.checked){
+                    $("#confirm").css('color', 'red');
+                } else {
+                    $("#confirm").css('color', 'green');
+                }
+            });
+            
+        });
+        
+        function validateForm() {
+            if (!$("#terms").is(':checked')){
+                
+            } else {
+                var shipping = parseInt($("input[name=shippingType]:checked").val());
+                var total = parseFloat($("#total").text().substr(1));
+                
+                if (shipping == 5) {
+                    shipping = "5-8 days.";
+                } else if (shipping == 10) {
+                    shipping = "3 days.";
+                } else  {
+                    shipping = "the next day.";
+                }
+                
+                
+                window.open("order.php?orderShipping=" + shipping + "&orderTotal=" + total);
+
+                
+            }
+            
+            return true;
+        }
+              
+        </script>
+        
+        
+    </header>
+    
+    <body>
+        
+        <h1> Holiday Shopping </h1>
+        <br />
+        <br />
+        <form onsubmit = "validateForm()">
+            <table border = "1">
+                <tr>
+                    <th>Product</th>
+                    <th>Unit Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                </tr>
+                
+                <tr>
+                    <td>Fruit Cake</td>
+                    <td>$30</td>
+                    <td><input id = "fruitCakeQuantity" type = "number" value = "2" min = "2"/></td>
+                    <td><div id = "fruitCakeTotal">$60</div></td>
+                </tr>
+                
+                <tr>
+                    <td>Pinata (Medium size)</td>
+                    <td>$20</td>
+                    <td><input id = "pinataQuantity" type = "number" value = "2" min = "2"/></td>
+                    <td><div id = "pinataTotal">$40</div></td>
+                </tr>
+                
+                <tr>
+                    <td>Shipping</td>
+                    <td></td>
+                    <td></td>
+                    <td><div id = "shipping">$5</div></td>
+                </tr>
+                
+                <tr>
+                    <td>Subtotal</td>
+                    <td></td>
+                    <td></td>
+                    <td><div id = "subtotal">$105</div></td>
+                </tr>
+                
+                <tr>
+                    <td>Tax (10%)</td>
+                    <td></td>
+                    <td></td>
+                    <td><div id = "tax">$10</div></td>
+                </tr>
+                
+                <tr>
+                    <td>Total</td>
+                    <td></td>
+                    <td></td>
+                    <td><div id = "total">$115</div></td>
+                </tr>
+                
+            </table>
+            <br />
+            
+            <h2>Shipping & Handling</h2>
+            <br />
+            
+            <input type = "radio" value = "15" name = "shippingType"> Next-day Delivery: $ 15.00 </input> <br />
+            <input type = "radio" value = "10" name = "shippingType"> Three-day Delivery: $ 10.00 </input> <br />
+            <input type = "radio" value = "5" name = "shippingType" checked> Regular Shipping (5-8 days): $ 5.00 </input>  <br />
+            
+            <br />
+            <br />
+            
+            <input id = "terms" type = "checkbox" name = "confirm"><span id = "confirm"> I accept the terms of this purchase. </span></input>
+            <br />
+            <br />
+            
+            <input id = "confirmPurchase" type = "submit" value = "CONFIRM PURCHASE" name = "confirmPurchase">
+            
+            </table>
+        </form>
+        
+    </body>
+</html>

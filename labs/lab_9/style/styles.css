@@ -1,0 +1,11 @@
+.error {
+    color: red;
+}
+
+.valid {
+    color: green;
+}
+
+body {
+    text-align: center;
+}

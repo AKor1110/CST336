@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>AJAX: Sign Up Page</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style/styles.css">
+        <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+        <script>
+        
+            function validateForm() {
+                var password = $("#password").val();
+                var password2 = $("#password2").val();
+                var username = $("#username").val();
+                
+                if (username.length < 5) {
+                    $("#usernameError").html(" Error: Username must be at least 5 characters long");
+                    $("#usernameError").attr("class", "error");
+                }
+                
+                if (password.length < 3) {
+                    $("#passwordError").html(" Error: Password not long enough, needs to be 3 characters long");
+                }
+                
+                if(password != password2){
+                    $("#passwordMismatchError").html(" Error: Passwords must match");
+                }
+                
+                return false;
+            }
+            
+            $("document").ready(function(){  
+                
+                $("#zip").change(function(){
+                    
+                    $.ajax({
+
+                        type: "GET",
+                        url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
+                        dataType: "json",
+                        data: { "zip": $("#zip").val() },
+                        success: function(data,status) {
+                           $("#city").html("<strong>"  + data.city + "</strong>");
+                           $("#latitude").html("<strong>"  + data.latitude + "</strong>");
+                           $("#longitude").html("<strong>"  + data.longitude + "</strong>");
+                           
+                        },
+                        complete: function(data,status) { //optional, used for debugging purposes
+                            //alert(status);
+                        }
+                        
+                    }).fail(function() {
+                        $("#zipError").html(" Zip code not found.");
+                    });//ajax
+                    
+                }); //zipEvent
+                
+                $("#state").change(function(){
+                    $.ajax({
+
+                        type: "GET",
+                        url: "http://itcdland.csumb.edu/~milara/ajax/countyList.php",
+                        dataType: "json",
+                        data: { "state": $("#state").val() },
+                        success: function(data,status) {
+                            $("#county").html("Select one");
+                            for(var i =0; i < data.length; i++){
+                                $("#county").append("<option>" + data[i].county + "</option>");
+                            }
+                            //alert(data[0].county);
+                           //$("#city").html(data.city);
+                         
+                        
+                        },
+                        complete: function(data,status) { //optional, used for debugging purposes
+                        //alert(status);
+                        }
+                        
+                    });//ajax
+                   
+                }); // state event
+                
+                
+                $("#username").change(function() {
+                    var username = $("#username").val();
+                    $.ajax({
+                        type: "GET",
+                        url: "usernameList.php",
+                        dataType: "json",
+                        data: {"username" : username},
+                        success: function(data, status) {
+                            var available = false;
+                            
+                            for (var i = 0; i < data.length; i++) {
+                                if (data[i].username == username) {
+                                    available = true;
+                                    break;
+                                }
+                            }
+                            
+                            if (available) {
+                                $("#usernameError").html(" Available");
+                                $("#usernameError").attr("class", "valid");
+                            } else {
+                                $("#usernameError").html(" Not Available");
+                                $("#usernameError").attr("class", "error");
+                            }
+                        },
+                        complete: function() {
+                            
+                        }
+                        
+                    }); // end ajax
+                    
+                }); // end username event
+                
+            });//documentReady
+            
+            
+        </script>
+
+    </head>
+
+    <body>
+    
+       <h1> Sign Up Form </h1>
+    
+        <form onsubmit="return validateForm()">
+            <fieldset>
+               <legend>Sign Up</legend>
+                First Name:  <input type="text"><br> <br> 
+                Last Name:   <input type="text"><br> <br> 
+                Email:       <input type="text"><br> <br> 
+                Phone Number: <input type="text"><br><br>
+                Zip Code:    <input type="text" id = "zip"> <span class = "error" id = "zipError"></span><br> <br> 
+                City: <span id = "city"></span>
+                <br>
+                Latitude: <span id = "latitude"></span>
+                <br>
+                Longitude: <span id = "longitude"></span>
+                <br><br>
+                State: 
+                <select id = "state">
+                    <option value="">Select One</option>
+                    <option value="ca"> California</option>
+                    <option value="ny"> New York</option>
+                    <option value="tx"> Texas</option>
+                    <option value="va"> Virginia</option>
+                </select><br /> <br> 
+                
+                Select a County: <select id = "county"></select><br> <br> 
+                
+                Desired Username: <input id = "username" type="text"><span class = "error" id = "usernameError"></span> <br> 
+                <br>
+                
+                Password: <input id = "password" type="password"><span class = "error" id = "passwordError"></span> <br> 
+                <br>
+                
+                Type Password Again: <input id = "password2" type="password"><span class = "error" id = "passwordMismatchError"></span> <br> 
+                <br>
+                
+                <input type="submit" value="Sign up!">
+            </fieldset>
+        </form>
+    
+    </body>
+</html>
