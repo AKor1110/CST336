@@ -110,7 +110,7 @@
         
             </div>
             
-        <a class="carousel-control-prev" href="#carousel-example-generic" role="button" data-slide="prev">
+          <a class="carousel-control-prev" href="#carousel-example-generic" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
           </a>

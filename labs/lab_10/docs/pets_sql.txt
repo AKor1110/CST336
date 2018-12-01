@@ -1,0 +1,33 @@
+
+
+--
+-- Table structure for table `pets`
+--
+
+CREATE TABLE IF NOT EXISTS `pets` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(50) NOT NULL,
+  `type` tinytext NOT NULL,
+  `breed` varchar(50) NOT NULL,
+  `yob` year(4) NOT NULL COMMENT 'Year of Birth',
+  `color` varchar(50) NOT NULL,
+  `pictureURL` varchar(50) NOT NULL,
+  `description` varchar(500) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
+
+--
+-- Dumping data for table `adoptees`
+--
+
+INSERT INTO `pets` (`id`, `name`, `type`, `breed`, `yob`, `color`, `pictureURL`, `description`) VALUES
+(1, 'Charlie', 'Dog', 'Golden Retriever', 2011, 'Golden Brown', 'charlie.jpg', 'I''m a very cute dog!'),
+(2, 'Carl', 'Cat', 'Tabby', 2015, 'Grey', 'carl.jpg', 'The most adorable kitty you''ll ever meet.'),
+(3, 'Samantha', 'Panda', 'Chinese', 2010, 'Black/White', 'samantha.jpg', 'I love bamboo and climbing things!'),
+(4, 'Ted', 'Sloth', 'Sloth', 2014, 'Grey', 'ted.jpg', 'I enjoy laying around and doing nothing all day... just like you in the weekends.'),
+(5, 'Sally', 'Cat', 'Tabby', 2012, 'Black', 'sally.jpg', 'Looking for a loving home. I am most definitely NOT bad luck.'),
+(6, 'Alex', 'Lion', 'Wild', 2013, 'Golden Brown', 'alex.jpg', 'Adopt me! I promise I''ll try not to eat you.');
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

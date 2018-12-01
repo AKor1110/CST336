@@ -40,18 +40,22 @@
                         dataType: "json",
                         data: { "zip": $("#zip").val() },
                         success: function(data,status) {
-                           $("#city").html("<strong>"  + data.city + "</strong>");
-                           $("#latitude").html("<strong>"  + data.latitude + "</strong>");
-                           $("#longitude").html("<strong>"  + data.longitude + "</strong>");
+                           if (data == false) {
+                               $("#zipError").html(" Zip code not found.");
+                           } else {
+                               $("#city").html("<strong>"  + data.city + "</strong>");
+                               $("#latitude").html("<strong>"  + data.latitude + "</strong>");
+                               $("#longitude").html("<strong>"  + data.longitude + "</strong>");
+                               $("#zipError").empty();
+                           }
+
                            
                         },
                         complete: function(data,status) { //optional, used for debugging purposes
-                            //alert(status);
+                            //alert("complete");
                         }
                         
-                    }).fail(function() {
-                        $("#zipError").html(" Zip code not found.");
-                    });//ajax
+                    }); // ajax
                     
                 }); //zipEvent
                 
@@ -89,20 +93,12 @@
                         dataType: "json",
                         data: {"username" : username},
                         success: function(data, status) {
-                            var available = false;
                             
-                            for (var i = 0; i < data.length; i++) {
-                                if (data[i].username == username) {
-                                    available = true;
-                                    break;
-                                }
-                            }
-                            
-                            if (available) {
-                                $("#usernameError").html(" Available");
+                            if (data) {
+                                $("#usernameError").html(" Available.");
                                 $("#usernameError").attr("class", "valid");
                             } else {
-                                $("#usernameError").html(" Not Available");
+                                $("#usernameError").html(" Not Available.");
                                 $("#usernameError").attr("class", "error");
                             }
                         },
