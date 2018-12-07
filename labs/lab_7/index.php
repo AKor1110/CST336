@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<?php
+    session_start();
+?>
+
 <html>
     <head>
         <title> Admin Login </title>
@@ -8,6 +12,9 @@
                 background-color: cornflowerblue;
             }
             
+            .error {
+                color: red;
+            }
         </style>
     </head>
     <body>
@@ -19,6 +26,12 @@
           Password:  <input type="password" name="password"/> <br> <br />
           <input id = "button" type="submit" value="Login">
         </form>
+        
+        <?php
+            if (isset($_SESSION["failedLogin"]) && !empty($_SESSION["failedLogin"])) {
+                echo "<h2 class = 'error'> Incorrect username/password. </h2>";
+            }
+         ?> 
 
 
     <footer>

@@ -21,13 +21,12 @@ $record = $stmt->fetch(PDO::FETCH_ASSOC);
 //print_r($record);
 
 if (empty($record)) {
-    
-    echo "Wrong username or password!!";
+    $_SESSION['failedLogin'] = true;
+    header('Location: index.php');
 } else {
    
    $_SESSION['adminFullName'] = $record['firstName'] .  "   "  . $record['lastName'];
    header('Location: admin.php');
-    
 }
 
 

@@ -1,0 +1,5 @@
+[05-Dec-2018 23:37:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column '4' in 'field list'' in /home/ubuntu/workspace/CST336/practice/practice11/addRating.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/practice/practice11/addRating.php(13): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/practice/practice11/addRating.php on line 13
