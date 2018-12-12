@@ -68,6 +68,7 @@ validateSession();
                   type: "GET",
                   url: "../api/getTotalReport.php",
                   dataType: "json",
+                  processData: false,
                   success: function(data, success) {
                       $("#total_report").html("<h2> Total Number of Artists: " + data.num + "</h2>");
                       
@@ -80,6 +81,7 @@ validateSession();
                   type: "GET",
                   url: "../api/getSongAvg.php",
                   dataType: "json",
+                  processData: false,
                   success: function(data, success) {
                       $("#song_report").html("<h2> Average Duration Of All Songs: " + data.num + "</h2>");
                       
@@ -92,9 +94,9 @@ validateSession();
                   type: "GET",
                   url: "../api/getAlbumAvg.php",
                   dataType: "json",
+                  processData: false,
                   success: function(data, success) {
                       $("#album_report").html("<h2> Average Duration Of All Albums " + data.num + "</h2>");
-                      
                   }
                 });
             }
@@ -113,17 +115,9 @@ validateSession();
               <input type="submit" value="Add New Song/Album">
           </form>
           
-          <form onsubmit = "return totalReport();">
-              <input type = "submit" value = "Artist Number Report">
-          </form>
-          
-          <form onsubmit = "return songReport();">
-              <input type = "submit" value = "Average Song Length">
-          </form>
-          
-          <form onsubmit = "return albumReport();">
-              <input type = "submit" value = "Average Album Length">
-          </form>
+          <button onclick = "totalReport()">Artist Number Report</button>
+          <button onclick = "songReport()">Average Song Length</button>
+          <button onclick = "albumReport()">Average Album Length</button>
           
           <form action="logout.php">
               <input type="submit" value="Logout">
