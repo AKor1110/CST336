@@ -65,11 +65,36 @@ validateSession();
             
             function totalReport() {
                 $.ajax({
+                  type: "GET",
                   url: "../api/getTotalReport.php",
                   dataType: "json",
-                  type: "get",
                   success: function(data, success) {
-                      $("#totalReport").html("<h2> Total Number of Artists: " + data.num + "</h2>");
+                      $("#total_report").html("<h2> Total Number of Artists: " + data.num + "</h2>");
+                      
+                  }
+                });
+            }
+            
+            function songReport() {
+                $.ajax({
+                  type: "GET",
+                  url: "../api/getSongAvg.php",
+                  dataType: "json",
+                  success: function(data, success) {
+                      $("#song_report").html("<h2> Average Duration Of All Songs: " + data.num + "</h2>");
+                      
+                  }
+                });
+            }
+            
+            function albumReport() {
+                $.ajax({
+                  type: "GET",
+                  url: "../api/getAlbumAvg.php",
+                  dataType: "json",
+                  success: function(data, success) {
+                      $("#album_report").html("<h2> Average Duration Of All Albums " + data.num + "</h2>");
+                      
                   }
                 });
             }
@@ -88,16 +113,16 @@ validateSession();
               <input type="submit" value="Add New Song/Album">
           </form>
           
-          <form onsubmit = "totalReport()">
-              <input type = "submit" name = "totalReport" value = "Artist Number Report">
+          <form onsubmit = "return totalReport();">
+              <input type = "submit" value = "Artist Number Report">
           </form>
           
-          <form onsubmit = "songReport">
-              <input type = "submit" name = "songReport" value = "Average Song Length">
+          <form onsubmit = "return songReport();">
+              <input type = "submit" value = "Average Song Length">
           </form>
           
-          <form onsubmit = "albumReport()">
-              <input type = "submit" name = "albumReport" value = "Average Album Length">
+          <form onsubmit = "return albumReport();">
+              <input type = "submit" value = "Average Album Length">
           </form>
           
           <form action="logout.php">
@@ -111,13 +136,13 @@ validateSession();
         
         <br />
         
-        <div id = "totalReport"></div>
+        <div id = "total_report"></div>
         <br />
         
-        <div id = "songReport"></div>
+        <div id = "song_report"></div>
         <br />
         
-        <div id = "albumReport"></div>
+        <div id = "album_report"></div>
         
         <!-- Modal -->
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">

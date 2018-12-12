@@ -11,6 +11,6 @@ $stmt->execute();
 
 $records = $stmt->fetch(PDO::FETCH_ASSOC);
 
-echo $records;
+echo json_encode($records);
 
 ?>
