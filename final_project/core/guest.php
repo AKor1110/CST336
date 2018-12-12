@@ -71,7 +71,9 @@
         <h1> OtterMusic [GUEST] - Main Page </h1>
         
         
-        
+        <form action = "../index.php">
+            <input type = "submit" value = "Return to Login">
+        </form>
         <div>
             Select Data Category:
             <select id = "option">
