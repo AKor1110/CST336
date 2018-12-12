@@ -25,6 +25,13 @@ if (isset($_GET['updateRecord'])){  //user has submitted update form
         $namedParameters[":albumNumSongs"] = $albumNumSongs;
         $namedParameters[":albumDuration"] = $albumDuration;
         
+        $sql = "UPDATE final_albums SET albumName = :albumName, 
+                                        albumYear = :albumYear,
+                                        albumArtist = :albumArtist,
+                                        albumGenre = :albumGenre,
+                                        albumNumSongs = :albumNumSongs,
+                                        albumDuration = :albumDuration 
+                WHERE id = " . $_GET['productId'];
         
     } else {
         $songName = $_GET["songName"];
@@ -38,17 +45,17 @@ if (isset($_GET['updateRecord'])){  //user has submitted update form
         $namedParameters[":songDuration"] = $songDuration;
         
         
+        $sql = "UPDATE final_songs SET songName = :songName,
+                                       songArtist = :songArtist,
+                                       songGenre = :songGenre,
+                                       songDuration = :songDuration
+                WHERE id = " . $_GET['productId'];
+        
     }
     
-    $sql = "UPDATE om_product 
-            SET productName= :productName,
-               productDescription = :productDescription,
-               price = :price,
-               catId = :catId,
-               productImage = :productImage
-            WHERE productId = " . $_GET['productId'];
-         
-    
+    $stmt = $dbConn->prepare($sql);
+    $stmt->execute($namedParameters);
+    header("Location: admin.php");
 }
 
 
