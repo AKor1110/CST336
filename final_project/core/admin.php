@@ -63,6 +63,17 @@ validateSession();
                 $('#myModal').modal("show");
             }
             
+            function totalReport() {
+                $.ajax({
+                  url: "../api/getTotalReport.php",
+                  dataType: "json",
+                  type: "get",
+                  success: function(data, success) {
+                      $("#totalReport").html("<h2> Total Number of Artists: " + data.num + "</h2>");
+                  }
+                });
+            }
+            
             
         </script>
     
@@ -76,27 +87,38 @@ validateSession();
           <form action="addRecord.php">
               <input type="submit" value="Add New Song/Album">
           </form>
-         <form action="logout.php">
+          
+          <form onsubmit = "totalReport()">
+              <input type = "submit" name = "totalReport" value = "Artist Number Report">
+          </form>
+          
+          <form onsubmit = "songReport">
+              <input type = "submit" name = "songReport" value = "Average Song Length">
+          </form>
+          
+          <form onsubmit = "albumReport()">
+              <input type = "submit" name = "albumReport" value = "Average Album Length">
+          </form>
+          
+          <form action="logout.php">
               <input type="submit" value="Logout">
-          </form>
-          
-          <form>
-              <input type = "submit" value = "Artist Number Report">
-          </form>
-          
-          <form>
-              <input type = "submit" value = "Average Song Length">
-          </form>
-          
-          <form>
-              <input type = "submit" value = "Average Album Length">
           </form>
 
            <br><br>
         
         <?= displayAllSongs() ?>
         <?= displayAllAlbums() ?>
-
+        
+        <br />
+        
+        <div id = "totalReport"></div>
+        <br />
+        
+        <div id = "songReport"></div>
+        <br />
+        
+        <div id = "albumReport"></div>
+        
         <!-- Modal -->
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered" role="document">
