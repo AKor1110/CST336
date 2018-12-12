@@ -2,7 +2,7 @@
 
 include "../inc/Connection.php";
 
-//sleep(1);
+sleep(1);
 
 $dbConn = getDatabaseConnection("c9");
 

@@ -58,6 +58,17 @@ function getAllPets(){
                             $("#container").html("");
                         },
     	              });
+    	          
+    	          /*
+    	          $('#petModal').on('hide.bs.modal', function(e) {
+    	              $("#petname").html(data.name);
+                    $("#description").html("");
+                    $("#petImage").attr('src', "");
+                    $("#container").html("");
+                    $('#petModal').toggleClass('modal fade');
+                    
+    	          });
+    	          */
 	          
 	          });
 	          

@@ -1,0 +1,5 @@
+[12-Dec-2018 21:00:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/CST336/final_project/core/guest.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/final_project/core/guest.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/final_project/core/guest.php on line 25

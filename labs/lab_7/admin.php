@@ -52,8 +52,8 @@ validateSession();
         
          <h3>Welcome <?= $_SESSION['adminFullName'] ?> </h3>
 
-          <form action="addProduct.php">
-              <input type="submit" value="Add New Product">
+          <form action="addRecord.php">
+              <input type="submit" value="Add New Song/Album">
           </form>
          <form action="logout.php">
               <input type="submit" value="Logout">
