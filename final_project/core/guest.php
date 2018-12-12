@@ -98,20 +98,44 @@
             $type = $_POST["type"];
             
             if ($type == "songs") {
+                print_r($_POST);
+                
                 $songName = $_POST["songName"];
                 $songArtist = $_POST["songArtist"];
                 $songGenre = $_POST["songGenre"];
                 $sortBy = $_POST["sortBy"];
                 
                 $np = array();
-                $np[":songName"] = '%' . $songName . '%';
-                $np[":songArtist"] = '%' .$songArtist .'%';
-                $np[":songGenre"] = '%'. $songGenre . '%';
-                $np[":sortBy"] = $sortBy;
                 
-                $sql = "SELECT * FROM final_songs WHERE songName LIKE :songName AND songArtist LIKE :songArtist AND songGenre LIKE :songGenre ORDER BY :sortBy";
+                $sql = "SELECT * FROM final_songs WHERE 1";
+                
+                if (!empty($songName)) {
+                    $sql .= " AND songName LIKE :songName";
+                    $np[":songName"] = '%' . $songName . '%';
+                }
+                
+                if (!empty($songArtist)) {
+                    $sql .= " AND songArtist LIKE :songArtist";
+                    $np[":songArtist"] = '%' .$songArtist .'%';
+                }
+                
+                if (!empty($songGenre)) {
+                    $sql .= " AND songGenre LIKE :songGenre";
+                    $np[":songGenre"] = '%'. $songGenre . '%';
+                }
+                
+                if (!empty($sortBy)) {
+                    $sql .= " ORDER BY :sortBy";
+                    $np[":sortBy"] = $sortBy;
+                }
+                
                 $stmt = $dbConn->prepare($sql);
-                $stmt->execute($np);
+                
+                if (empty($np)) {
+                    $stmt->execute();
+                } else {
+                    $stmt->execute($np);   
+                }
                 $record = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 
                 echo "<h1>Search Results: </h1>";
@@ -127,6 +151,7 @@
                 echo "</div>";
                 
             } else {
+
                 $albumName = $_POST["albumName"];
                 $albumArtist = $_POST["albumArtist"];
                 $albumGenre = $_POST["albumGenre"];
@@ -134,16 +159,41 @@
                 $sortBy = $_POST["sort"];
                 
                 $np = array();
-                $np[":albumName"] = '%' . $albumName . '%';
-                $np[":albumArtist"] = '%' . $albumArtist . '%';
-                $np[":albumGenre"] = '%' . $albumGenre . '%';
-                $np[":albumYear"] =  $albumYear;
-                $np[":sortBy"] = $sortBy;
                 
-                $sql = "SELECT * FROM final_albums WHERE albumName LIKE :albumName AND albumArtist LIKE :albumArtist AND albumGenre LIKE :albumGenre AND albumYear = :albumYear ORDER BY :sortBy";
+                $sql = "SELECT * FROM final_albums WHERE 1";
+                // AND albumYear = :albumYear ORDER BY :sortBy";
+                if (!empty($albumName)) {
+                    $sql .= " AND albumName LIKE :albumName";
+                    $np[":albumName"] = '%' . $albumName . '%';
+                }
+                
+                if (!empty($albumArtist)) {
+                    $sql .= " AND albumArtist LIKE :albumArtist";
+                    $np[":albumArtist"] = '%' . $albumArtist . '%';
+                }
+                
+                if (!empty($albumGenre)) {
+                    $sql .= "  AND albumGenre LIKE :albumGenre";
+                    $np[":albumGenre"] = '%' . $albumGenre . '%';
+                }
+                
+                if (!empty($albumYear)) {
+                    $sql .= " AND albumYear = :albumYear";
+                    $np[":albumYear"] =  $albumYear;
+                }
+                
+                if (!empty($sortBy)) {
+                    $sql .= " ORDER BY :sortBy";
+                    $np[":sortBy"] = $sortBy;
+                }
             
                 $stmt = $dbConn->prepare($sql);
-                $stmt->execute($np);
+                
+                if (empty($np)) {
+                    $stmt->execute();
+                } else {
+                    $stmt->execute($np);   
+                }
                 $record = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 
                 echo "<h1> Search Results: </h1>";
