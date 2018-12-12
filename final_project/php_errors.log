@@ -3,3 +3,8 @@ Stack trace:
 #0 /home/ubuntu/workspace/CST336/final_project/core/guest.php(25): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/CST336/final_project/core/guest.php on line 25
+[12-Dec-2018 22:27:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* FROM final_songs WHERE id = 25' at line 1' in /home/ubuntu/workspace/CST336/final_project/core/deleteRecord.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/final_project/core/deleteRecord.php(12): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/final_project/core/deleteRecord.php on line 12
