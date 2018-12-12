@@ -28,7 +28,7 @@ foreach ($records as $record) {
 }
 
 $res = array();
-$mins = $totalSecs / count($records) / 60;
+$mins = number_format($totalSecs / count($records) / 60, 2);
 $secs = $totalSecs / count($records) % 60;
 $res["avg"] = $mins . ":" . $secs;
 

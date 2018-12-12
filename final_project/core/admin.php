@@ -83,7 +83,7 @@ validateSession();
                   dataType: "json",
                   processData: false,
                   success: function(data, success) {
-                      $("#song_report").html("<h2> Average Duration Of All Songs: " + data.num + "</h2>");
+                      $("#song_report").html("<h2> Average Duration Of All Songs: " + data.avg + "</h2>");
                       
                   }
                 });
@@ -96,7 +96,7 @@ validateSession();
                   dataType: "json",
                   processData: false,
                   success: function(data, success) {
-                      $("#album_report").html("<h2> Average Duration Of All Albums " + data.num + "</h2>");
+                      $("#album_report").html("<h2> Average Duration Of All Albums " + data.avg + "</h2>");
                   }
                 });
             }
